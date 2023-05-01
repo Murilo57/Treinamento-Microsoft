@@ -1,0 +1,52 @@
+18/04/2023
+
+Métodos são propriedades das classes, para utilizar um método vc tera que saber de que classe ele esta.
+Exemplo:
+Console.WriteLine("Hello World!");
+
+Console é uma classe e WriteLine é um metodo que há dentro da classe. Console é uma classe onde operam os metodos de saidas no painel, nesse caso há um parametro recebendo a mensagem "Hello World!"
+
+Variavel:
+
+A declaração de uma variavel em C# sempre tem que ser declarada com o TIPO dela antes, exemplo:
+string firstname;
+int firstnumber;
+decimal firstnumber;
+bool processedCustomer;
+
+decimal em C# é o mesmo que Float em Delphi
+
+Os nomes das variaveis devem usar a primeira letra minuscula e subsequente concatenando outra palavras com a primeira maiuscula, exemplo:
+string muriloCasoFerreira;
+
+Variaveis locais de tipo implicito:
+
+Uma variavel de tipo implicito é criada usando a palavra reservada "var", utilizando a palavra var eu substituo pelo tipo que ela é, exemplo:
+var menssage = "Hello World";
+
+aqui ela esta passando ja o tipo da variavel que no caso é uma string
+
+19/04/2023
+
+Sequência de escape de caractere:
+
+\t = tabulação
+\n = uma nova linha
+\" uma aspa duplas dentro de uma string
+\\ = para uma barra invertida
+@ = mantem a formatação de espaço em branco e caracteres de barra invertido
+
+
+24/04/2023
+
+int firstNumber = 7;
+int threeNumber = 200;
+int fourNumber = 5;
+decimal quotient = (decimal)firstNumber / (decimal)fourNumber;
+decimal twoQuotient = (decimal)threeNumber / (decimal) fourNumber;
+decimal QuotientInt = (decimal)threeNumber % (decimal) fourNumber;
+decimal twoQuotientInt = (decimal)firstNumber % (decimal) fourNumber;
+Console.WriteLine("Quotient 7 / 5: " + quotient);
+Console.WriteLine("Two Quotient 200 / 5: " + twoQuotient);
+Console.WriteLine("Quotient Integer 200 / 5: " + QuotientInt);
+Console.WriteLine("Two Quotient Integer 7 / 5: " + twoQuotientInt);
