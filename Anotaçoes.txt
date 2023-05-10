@@ -50,3 +50,16 @@ Console.WriteLine("Quotient 7 / 5: " + quotient);
 Console.WriteLine("Two Quotient 200 / 5: " + twoQuotient);
 Console.WriteLine("Quotient Integer 200 / 5: " + QuotientInt);
 Console.WriteLine("Two Quotient Integer 7 / 5: " + twoQuotientInt);
+
+05/05/2023 
+Métodos com estado e Métodos sem estado
+
+Em projetos de desenvolvimento de software, o termo estado é usado para descrever a condição do ambiente de execução em um momento específico no tempo. Conforme seu código executa linha por linha, os valores são armazenados em variáveis. A qualquer momento durante a execução, o estado atual do aplicativo é a coleção de todos os valores armazenados na memória.
+
+Praticamente os métodos sem estado são aqueles que não recebem valores de uma variavel. Ja os métodos com estado são aqueles que recebem valores diferentes nas variaveis que chamam a classe.
+
+Algumas classes precisam que vc crie um instancia com uma variavel para poder chamar um método dela
+Exemplo:
+
+Random teste = new Random()
+Aqui estou criando uma instancia(variavel/objeto) com o nome de "teste" onde receb
