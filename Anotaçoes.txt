@@ -62,4 +62,6 @@ Algumas classes precisam que vc crie um instancia com uma variavel para poder ch
 Exemplo:
 
 Random teste = new Random()
-Aqui estou criando uma instancia(variavel/objeto) com o nome de "teste" onde receb
+Aqui estou criando uma instancia(variavel/objeto) com o nome de "teste" onde recebe a classe Random
+
+Alguns métodos foram feitos para concluir sua função e terminar "Silenciosamente". Em outras palavras, eles não retornam um valor quando são finalizados. eles são denominados METÓDOS NULOS
